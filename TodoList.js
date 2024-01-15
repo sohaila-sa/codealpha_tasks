@@ -28,7 +28,7 @@ const TodoList = () =>{
     return (
         <div className="App">
             <div className="first-container">
-            <h1> Things Get done </h1>
+            <h1> Get Things Done </h1>
             <input className="entery" type="text" value={newTodo} placeholder="What is the task today?" onChange={(e) => setNewTodo(e.target.value)}/>
             <button onClick={handleAddTodos}>Add Task</button>
             
